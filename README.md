@@ -23,25 +23,6 @@ The overall project structure is shown below:
 
 To run the project you'll need JDK 1.8 and Maven installed.
 
-### Screenplay and Cucumber
-
-The first demo shows the integration of Serenity BDD, Screenplay and Cucumber JVM.
-To run it, execute:
-
-```
-mvn clean verify -Pcucumber
-```
-
-### Screenplay and JUnit
-
-The second demo covers the integration of Serenity BDD, Screenplay and JUnit.
-
-To run it, execute:
-
-```
-mvn clean verify -Pscreenplay
-```
-
 ### Page Objects and JUnit
 
 We've also included a demo of how the tests you've just seen implemented using the Screenplay Pattern
@@ -49,9 +30,7 @@ would have looked if they were implemented using the Page Objects.
 
 To run it, execute:
 
-```
-mvn clean verify -Ppageobjects
-```
+mvn clean verify
 
 ## Reporting
 
