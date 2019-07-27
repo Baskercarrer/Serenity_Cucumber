@@ -1,5 +1,4 @@
 @regression
-  #testing
     
 Feature: UI - Verify the Fb login functionality
   In order to verify Fb login page
